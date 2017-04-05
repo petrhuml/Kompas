@@ -49,6 +49,7 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
         rotate.setFillAfter(true);
         imageViewArrow.startAnimation(rotate);
         textViewUhel.setText(Integer.toString(stupne));
+        aktualniPozice=-stupne;
     }
 
     @Override
